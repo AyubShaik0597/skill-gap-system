@@ -1,0 +1,62 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+*.db
+.generated/
+generated/
+generated_full/
+reproducibility/
+reproducibility_full/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python testing cache
+venv/
+.pytest_cache/
+
+# IDE settings
+.vscode/
+
+# Local logs
+*.log
+
+# Local database files
+*.sqlite
+*.sqlite3
+
+# Test and Python caches
+.pytest_cache/
+__pycache__/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# Frontend dependencies and builds
+**/node_modules/
+**/dist/
+
+# Local databases and generated data
+*.sqlite
+*.sqlite3
+*.db
+
+# Local password-reset utilities
+**/reset_admin_password.py
