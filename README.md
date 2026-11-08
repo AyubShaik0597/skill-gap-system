@@ -71,3 +71,22 @@ These tests use an isolated SQLite database and do not require a running MySQL s
 ## Original project audit
 
 See `docs/original_project_audit.md` for the review of the ZIP you provided, identified gaps, changes included in this revised package, verification status, and the `.env` security warning.
+## Demo Admin Credentials
+
+Use this account to access the SkillPath Admin dashboard.
+
+- **Email:** `yottaflex123@gmail.com`
+- **Password:** Provided privately to the evaluator.
+- **Role:** Admin
+- **Registration:** Public registration is disabled.
+
+### Login Instructions
+
+1. Start the FastAPI backend.
+2. Start the React frontend.
+3. Open the frontend URL in your browser.
+4. Sign in using the demo Admin credentials.
+
+The dashboard includes Overview, Employee Insights, Learning & Enrollment, Budgets, and Traceability.
+
+**Security:** This account is intended for demo evaluation using synthetic data. Never commit passwords, API keys, or database secrets to the public repository.
